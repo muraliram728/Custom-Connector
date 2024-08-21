@@ -1,0 +1,23 @@
+{
+    "connectionParameters": {
+      "apiKey": {
+        "type": "securestring",
+        "uiDefinition": {
+          "displayName": "API Key",
+          "description": "The API Key for authentication",
+          "tooltip": "Enter your API Key",
+          "constraints": {
+            "required": "true"
+          }
+        }
+      }
+    },
+    "iconBrandColor": "#0078D4",
+    "capabilities": [],
+    "policyTemplateInstances": [],
+    "publisher": "Your Company Name",
+    "stackOwner": "Your Company Name",
+    "tags": ["custom connector", "api"],
+    "connectionParameterSets": []
+  }
+  

@@ -1,0 +1,33 @@
+{
+    "swagger": "2.0",
+    "info": {
+      "version": "1.0.0",
+      "title": "My API",
+      "description": "An API for my custom connector"
+    },
+    "host": "localhost:3000",
+    "basePath": "/api",
+    "schemes": ["http"],
+    "paths": {
+      "/data": {
+        "get": {
+          "summary": "Get Data",
+          "operationId": "getData",
+          "responses": {
+            "200": {
+              "description": "A successful response",
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "message": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  
