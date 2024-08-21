@@ -4,7 +4,7 @@ const port = process.env.PORT || 3000;
 
 app.get('/api/data', (req, res) => {
     res.json({ message: "Hello from your custom API!" });
-}); 
+});
 
 // Define a root route
 app.get('/', (req, res) => {
