@@ -5,7 +5,7 @@
       "title": "My API",
       "description": "An API for my custom connector"
     },
-    "host": "custom-connector-seven.vercel.app",
+    "host": "custom-connector-tawd.vercel.app/",
     "basePath": "/api",
     "schemes": ["https"],
     "paths": {
